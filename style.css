@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1622186477895-f2af6a0f5a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: grey;
+    }
+
+
+.container {
+background-color:rgba(94, 97, 93, 0.9);
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+flex-wrap: wrap;
+width: 500px;
+height: 625px;
+border-radius: 40px;
+color: white;
+
+}
+
+form {
+    margin-left: 30px;
+}
+
+.totalAmount {
+    display: flex;
+    margin-left: 60px;
+    
+}
+
+h1 {
+    align-self: center;
+    color: #A8DF8E;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rentCost, .insuranceCost, .gasCost, .foodCost {
+    padding: 10px;
+}
+
+.totalAmount {
+    background-color: rgba(123, 173, 106, 0.8);
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background-color: #272829;
+    color: #A8DF8E;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+
+}

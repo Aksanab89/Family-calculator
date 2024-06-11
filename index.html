@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+    <h1> Let's calculate our expenses </h1>
+   <form>
+           <p>Rent 🏚️</p>
+           <span>$
+           <input type="text" class="rentCost" placeholder="Rent..."></span>
+
+           <p>Groceries 🛍️</p>
+           <span>$
+           <input type="text" class="foodCost" placeholder="Food..."></span>
+
+           <p>Car insurance 🚘</p>
+           <span>$
+            <input type="text" class="insuranceCost" placeholder="Car insurance..."></span>
+
+            <p>Cas cost ⛽</p>
+            <span>$
+             <input type="text" class="gasCost" placeholder="Gas..."></span>
+<br>
+<br>
+          <select id="tips">
+              <option disabled> Select an option</option>
+              <option value="1" selected>One month expenses</option>
+              <option value="3" selected>Expenses for 3 months</option>
+              <option value="6">Expenses for 6 months</option>
+              <option value="12">Expenses for the entire year</option>
+           </select>
+           <button class="btn">Calculate</button>
+      
+        </form>
+
+        <div class="totalAmount">
+           
+            <div id="FullAmount">
+                 <p>Amount</p>
+                 <span>$</span>
+                 <span id = "WhatYouPay"></span>
+                 <span>we pay</span>
+              </div>
+   
+          
+           </div>
+        </div>
+
+
+    </div>
+
+    
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
